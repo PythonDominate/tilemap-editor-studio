@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PyInstaller / Nuitka build artifacts
+*.spec.bak
+tilemap-editor-studio.exe
+tilemap-editor-studio.dist/
+
+# Native extension build output (C++ tile renderer)
+tilemap_editor_studio/native/build/
+*.pyd
+*.dll
+*.lib
+*.exp
+*.obj
+
+# C# tilemap bridge (dotnet)
+tilemap_editor_studio/bridges/csharp/bin/
+tilemap_editor_studio/bridges/csharp/obj/
+
+# Java tilemap exporter (gradle/maven)
+tilemap_editor_studio/bridges/java/build/
+tilemap_editor_studio/bridges/java/target/
+*.class
+
+# Editor runtime state
+.tilemap-studio/
+*.tmp
+*.autosave
+*.bak
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
