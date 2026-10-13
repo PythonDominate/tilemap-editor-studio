@@ -1,0 +1,1 @@
+"""Bootstrap layer: entry points, dependency wiring, CLI parsing."""
