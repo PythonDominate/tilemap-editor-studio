@@ -1,0 +1,1 @@
+"""Configuration: settings loader, plugin dir resolution, defaults."""
