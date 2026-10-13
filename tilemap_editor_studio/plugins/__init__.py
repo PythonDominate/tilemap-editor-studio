@@ -1,0 +1,1 @@
+"""Plugin subsystem: contracts, loader, registry, sandbox."""
