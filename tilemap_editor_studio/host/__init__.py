@@ -1,0 +1,1 @@
+"""Core host: editor lifecycle, plugin bus, document coordination."""
